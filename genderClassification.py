@@ -12,7 +12,7 @@ clf = tree.DecisionTreeClassifier()
 # Fit model to data
 clf = clf.fit(X,Y)
 
-# Retrieval of User data
+# Retrieval of User data 
 height = int(input('Enter your height: '))
 weight = int(input('Enter your weight: '))
 shoeSize = int(input('Enter Your Shoe Size: '))
